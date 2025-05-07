@@ -35,4 +35,29 @@ const myFunc =function(){
     console.log("hello from function");    
 }
 
-console.log(typeof myFunc);         //return type of function is called object function 
+//console.log(typeof myFunc);         //return type of function is called object function 
+
+
+//++++++++++++++++++++++++++++++++++++Memory management++++++++++
+
+//stack memory(Primitive)
+//heap memory(Non-Primitive)
+
+let myYoutube = "areebCoder.com"            //stack
+
+let anothername = "ultimatecoder"
+
+//console.log(myYoutube);
+//console.log(anothername);
+
+let userOne = {
+    "name" : "areeb",                   // variable useOne and userTwo goes to stack memory
+    "email" : "areeb@gmail.com",        // object data goes to heap memory(reference)
+     
+}
+let userTwo = userOne           
+
+userTwo.email = "areebMicrosoft@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
