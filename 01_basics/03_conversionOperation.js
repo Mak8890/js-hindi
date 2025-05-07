@@ -14,7 +14,7 @@ let valueInNumber = Number(score)
 let isLoggedIn = 1      //true
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-console.log(booleanIsLoggedIn)
+//console.log(booleanIsLoggedIn)
 
 // 1 => true
 //"" => false
@@ -24,5 +24,36 @@ console.log(booleanIsLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber)
-console.log(typeof stringNumber)
+//console.log(stringNumber)
+//console.log(typeof stringNumber)
+
+
+
+//*********************************Operations*************************
+
+let num = 3
+let negNum = -(num)
+//console.log(typeof negNum)
+//console.log(negNum)
+
+//console.log(2**3);
+
+let str1 = "hello"
+let str2 = " Areeb"
+
+//console.log(str1 + str2);
+
+//console.log("1"+2)
+//console.log(1+"2");
+//console.log("1"+ 2 + 2)
+//console.log(1 + 2 + "2");
+
+//console.log(+true);
+//console.log(+"");
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter);
+
+
+
